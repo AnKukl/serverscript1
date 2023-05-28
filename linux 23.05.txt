@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ IDNAME=$(whoami)
+ PWD=$(pwd)
+ COUNTP=$(ps -ef | wc -l)
+ echo -e "your name is: $IDNAME\nyour working directory is: $PWD\nNumber of users: $COUNTP""_ssh\ndone"
+
